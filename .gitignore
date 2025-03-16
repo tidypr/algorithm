@@ -1,0 +1,15 @@
+# ignore all files
+*
+
+# allow directories
+!*/**
+node_modules
+
+# allow *.c, *.cpp, *.ts
+!**/*.c
+!**/*.cpp
+!**/*.ts
+
+!.gitignore
+!README.md
+!**/*package.json
