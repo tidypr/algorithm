@@ -1,15 +1,5 @@
-# ignore all files
-*
+# ignore all .exe files
+*.exe
 
-# allow directories
-!*/**
-node_modules
-
-# allow *.c, *.cpp, *.ts
-!**/*.c
-!**/*.cpp
-!**/*.ts
-
-!.gitignore
-!README.md
-!**/*package.json
+# ignore node_modules
+node_modules/
