@@ -7,6 +7,8 @@
     "rootDir": "./src" /* 소스 코드 디렉터리 지정. */,
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "removeComments": true /* 주석 제거 */,
+    "noEmitOnError": true /* 컴파일 오류가 있을 경우 파일을 생성하지 않음. */,
 
     // module
     "moduleDetection": "force" /* 모듈 감지 방식 자동 설정, 파일간 중복 변수명처리 => "auto", "force", "legacy" */,
