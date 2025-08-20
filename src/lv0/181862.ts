@@ -35,7 +35,20 @@
 
 // ==================== TIME OUT ====================
 
-// const result = solution("baconlettucetomato");
-// console.log(result);
-// const resul2 = solution("abcd");
-// console.log(resul2);
+function solution(myStr: string) {
+  const result = myStr.replaceAll("a", "@").replaceAll("b", "@").replaceAll("c", "@");
+  const isEmpty = result.split("@").filter((x) => x);
+
+  if (isEmpty.length === 0) {
+    return ["EMPTY"];
+  } else {
+    return isEmpty;
+  }
+}
+
+const result = solution("baconlettucetomato");
+console.log(result);
+const resul2 = solution("abcd");
+console.log(resul2);
+const resul3 = solution("cabab");
+console.log(resul3);
