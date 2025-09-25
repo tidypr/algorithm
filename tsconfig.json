@@ -1,4 +1,3 @@
-// 기본값(tsx init, 2025-07-25)
 {
   "compilerOptions": {
     "target": "esnext" /* 컴파일된 코드의 자바스크립트 버전 지정, es2016, ESNext등. */,
