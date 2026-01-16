@@ -1,7 +1,10 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/12951
 
 function solution(s: string) {
-  const arr = s.trim().split(" ");
+  const arr = s
+    // .trim()
+    .split(" ")
+    .filter((x) => x !== "");
   const result = [];
 
   for (const a of arr) {
@@ -10,6 +13,11 @@ function solution(s: string) {
   return result.join(" ");
 }
 
-console.log(solution(" 3people unFollowed me"));
-console.log(solution("for the last week"));
+console.log(solution(" 3people       unFollowed me"));
+console.log(solution(" 3people unF d ollowed me"));
+console.log(solution("       for the last week"));
 console.log(solution("for ?t last week"));
+console.log(solution("sqwdwqdqwdqwd"));
+console.log(solution("23123mdd mm23123 d12d21d21md1 d12d1"));
+console.log(solution("d d w s s s s    "));
+ 

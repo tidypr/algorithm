@@ -3,7 +3,7 @@
     "target": "esnext" /* 컴파일된 코드의 자바스크립트 버전 지정, es2016, ESNext등. */,
     "module": "esnext" /* 모듈 시스템 사용. CommonJS, ESNext 등. */,
     "outDir": "./dist" /* 컴파일된 파일이 저장될 디렉터리 지정. */,
-    "rootDir": "./src" /* 소스 코드 디렉터리 지정. */,
+    "rootDir": "./programmers" /* 소스 코드 디렉터리 지정. */,
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "removeComments": true /* 주석 제거 */,
@@ -15,5 +15,6 @@
     // strict mode
     "strict": true /* 엄격한 타입 검사 활성화. */,
     "skipLibCheck": true /* 라이브러리의 타입 검사 생략 (컴파일 속도 향상) */
-  }
+  },
+  "include": ["programmers/**/*"]
 }

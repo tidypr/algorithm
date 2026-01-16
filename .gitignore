@@ -1,9 +1,4 @@
 node_modules/
+.DS_Store
 dist/
-test
-**/app.ts
-
-**/*.map
-**/*.d.ts
-
-temp.md
+test/
