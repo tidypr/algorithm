@@ -20,4 +20,3 @@ console.log(solution("for ?t last week"));
 console.log(solution("sqwdwqdqwdqwd"));
 console.log(solution("23123mdd mm23123 d12d21d21md1 d12d1"));
 console.log(solution("d d w s s s s    "));
- 
